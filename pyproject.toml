@@ -1,0 +1,21 @@
+[project]
+name = "huggingface-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.13.0",
+    "datasets[audio,vision]>=4",
+    "deepspeed>=0.18.9",
+    "evaluate>=0.4.6",
+    "gradio>=6.11.0",
+    "huggingface-hub[all]>=1.9.2",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "nltk>=3.9.4",
+    "openai>=2.31.0",
+    "tokenizers>=0.22.2",
+    "trackio>=0.21.1",
+    "transformers[all]>=5",
+]
