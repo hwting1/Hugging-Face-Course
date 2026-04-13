@@ -1392,6 +1392,7 @@ dependencies = [
     { name = "nltk" },
     { name = "openai" },
     { name = "tokenizers" },
+    { name = "torch" },
     { name = "trackio" },
     { name = "transformers", extra = ["deepspeed", "sentencepiece", "sklearn", "torch"] },
 ]
@@ -1408,7 +1409,8 @@ requires-dist = [
     { name = "nltk", specifier = ">=3.9.4" },
     { name = "openai", specifier = ">=2.31.0" },
     { name = "tokenizers", specifier = ">=0.22.2" },
-    { name = "trackio", specifier = ">=0.21.1" },
+    { name = "torch", specifier = ">=2.11.0" },
+    { name = "trackio", specifier = ">=0.22.0" },
     { name = "transformers", extras = ["torch", "sentencepiece", "sklearn", "deepspeed"], specifier = ">=5" },
 ]
 

@@ -15,6 +15,7 @@ dependencies = [
     "nltk>=3.9.4",
     "openai>=2.31.0",
     "tokenizers>=0.22.2",
-    "trackio>=0.21.1",
+    "torch>=2.11.0",
+    "trackio>=0.22.0",
     "transformers[torch,sentencepiece,sklearn,deepspeed]>=5",
 ]
