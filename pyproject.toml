@@ -17,5 +17,6 @@ dependencies = [
     "tokenizers>=0.22.2",
     "torch>=2.11.0",
     "trackio>=0.22.0",
-    "transformers[torch,sentencepiece,sklearn,deepspeed]>=5",
+    "transformers[sentencepiece,sklearn,torch]>=5.7.0",
+    "vllm>=0.20.0",
 ]
