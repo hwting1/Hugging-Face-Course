@@ -1,28 +1,27 @@
 [project]
 name = "huggingface-course"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
-    "accelerate>=1.14.0",
+    "accelerate>=1",
+    "bitsandbytes>=0.50.2",
     "datasets>=5",
     "evaluate>=0.4.6",
-    "faiss-cpu>=1.13.2",
-    "gradio[mcp]>=6.24.0",
-    "huggingface-hub[all]>=1.27.0",
+    "faiss-cpu>=1.15.1",
+    "huggingface-hub[all]>=1.33.0",
     "jupyter>=1.1.1",
-    "matplotlib>=3.10.8",
-    "nltk>=3.9.4",
-    "openai>=3.3.0",
-    "peft>=0.20.0",
+    "matplotlib>=3.11.2",
+    "nltk>=3.10.3",
+    "openai>=3.24.0",
+    "peft>=0.21.2",
     "psutil>=7.2.2",
     "seqeval>=1.2.2",
-    "tokenizers>=0.22.2",
+    "tokenizers>=0.23.2",
     "torch>=2.13.0",
-    "trackio>=0.35.0",
-    "transformers[sentencepiece,sklearn,torch,retrieval]>=5.15.0",
-    "trl>=1.10.0",
-    "vllm>=0.27.1",
+    "trackio>=0.40.0",
+    "transformers[retrieval,sentencepiece,sklearn,torch]>=5",
+    "trl>=1",
+    "vllm>=0.30.0",
+    "wandb>=0.30.0",
     "zstandard>=0.25.0",
 ]
